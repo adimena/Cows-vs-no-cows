@@ -1,5 +1,5 @@
 # Cows-vs-no-cows
-
+![IMG_8659.JPG](./IMG_8659.JPG)
 Detection of cows on a Raspberry Pi camera, for citizen scientists collecting data on river turbidity
 
 ## Description
