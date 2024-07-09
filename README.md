@@ -9,10 +9,13 @@ Detection of cows on a Raspberry Pi camera, for citizen scientists collecting da
     Some of the challenges you faced and features you hope to implement in the future.
 
 Neural network which detects whether there are cows or no cows in a photo
+    Data
+    Model
+    Inference
+I achieved an accuracy of 80%
 
-
-## How to install & run
-
-Dependencies? Stuff that I have installed?
+```
+python install -r requirements.txt
+```
 
 ## How to use
