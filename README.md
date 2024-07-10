@@ -14,7 +14,7 @@ I achieved an accuracy of 80% using data from the field.
 
 ## How to use
 
-Install the requirements in a virtual environment
+Install the requirements (coming soon) in a virtual environment
 ```
 python install -r requirements.txt
 ```
