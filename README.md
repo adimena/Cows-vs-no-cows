@@ -1,8 +1,9 @@
-# Cows-vs-no-cows
-![IMG_8659.JPG](./IMG_8659.JPG)
-Detection of cows on a Raspberry Pi camera, for citizen scientists collecting data on river turbidity
+# Cows-vs-no-cows  
 
-## Description
+Detection of cows on a Raspberry Pi camera, for citizen scientists collecting data on river turbidity
+![IMG_8659.JPG](./IMG_8659.JPG)
+
+## Description  
 
 Neural network which detects whether there are cows or no cows in a photo, using TensorFlow. There are three parts to this:  
 * Data
@@ -22,9 +23,18 @@ Split the data into a training and testing set, using splitdata.py.
 Train the model using cows.py. This script will arrange the data into something it can use, create a neural network, train all of the images in the training set 15 times over, and save the model.  
 Test the model using inference.py. This script will load data from the holdout set and feed it into the model. The output will be two numbers, showing the certainty that the "cow" images contain cows, and the "no cow" images do not contain cows.  
 
+## Context
+
+For a school project (EPQ) of my choice I chose to make a machine learning algorithm; this is still a work in progress. I decided to make a neural network to detect the presence of cows in fields to see if this has an effect on the water in rivers nearby. To create the neural network, I used another project on GitHub that recognises whether there is a cat or a dog in the photo [link it here]. After modifying it slightly for it to work on my computer, and substituting the "cats vs dogs" dataset for "cows vs no cows", the model ran smoothly. I then took photos of cows myself to use as a holdout set, which the model recognises to an accuracy of up to 80%.  
+
+My sources of data are:
+* scraping from Bing image search
+* a Kaggle dataset of cows [link it here]
+* videos I took of cows and no cows - I then extracted images from here. This was to get a large number of photos without taking each one individually
+* photos I took of cows and no cows - this was used for the holdout set
 
 ## Coming soon
 
-Get it working with the Raspberry Pi camera  
-Graphs showing the performance of the model  
 Better performance using dropout layers  
+Graphs showing the performance of the model  
+Using the model on a Raspberry Pi camera
