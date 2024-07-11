@@ -26,7 +26,7 @@ Test the model using inference.py. This script will load data from the holdout s
 
 ## Context
 
-For a school project (EPQ) of my choice I chose to make a machine learning algorithm. This is still a work in progress. I decided to make a neural network to detect the presence of cows in fields, to see if this has an effect on the water in rivers nearby. I used another project on GitHub that recognises whether there is a cat or a dog in the photo [(https://github.com/0sparsh2/cats-vs-dogs-coursera-assignment/blob/main/Cats_vs_Dogs_CourseraAssignment.ipynb)]. Instead of training the model with the "cats vs dogs" dataset I used my own "cows vs no cows" dataset. I then took photos of cows myself to use as a holdout set, which the model recognises to an accuracy of up to 80%.  
+For a school project (EPQ) of my choice I chose to make a machine learning algorithm. This is still a work in progress. I decided to make a neural network to detect the presence of cows in fields, to see if this has an effect on the water in rivers nearby. I used another project on GitHub that recognises whether there is a cat or a dog in the photo (https://github.com/0sparsh2/cats-vs-dogs-coursera-assignment/blob/main/Cats_vs_Dogs_CourseraAssignment.ipynb). Instead of training the model with the "cats vs dogs" dataset I used my own "cows vs no cows" dataset. I then took photos of cows myself to use as a holdout set, which the model recognises to an accuracy of up to 80%.  
 
 My sources of data are:
 * scraping from Bing image search
