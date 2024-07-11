@@ -1,7 +1,7 @@
 # Cows-vs-no-cows  
 
 Detection of cows on a Raspberry Pi camera, for citizen scientists collecting data on river turbidity
-![GitHub_cover_image.JPG](./GitHub_cover_image.JPG)
+![GitHub_cover_image.JPG](./GitHub_cover_image.JPG =100x)
 
 ## Description  
 
