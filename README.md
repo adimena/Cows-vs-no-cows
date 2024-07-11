@@ -16,7 +16,8 @@ I achieved an accuracy of 80% using data from the field.
 
 Install the requirements in a virtual environment
 ```
-python install -r requirements.txt
+python install -r training_requirements.txt
+python install -r inference_requirements.txt
 ```
 Download a dataset (please contact me if you wish to use my dataset) with two folders: photos of cows and photos without cows. Use a variety of photos including different angles of the cow(s), and different locations within both catagories.  
 Split the data into a training and testing set, using splitdata.py.  
