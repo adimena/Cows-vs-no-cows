@@ -13,14 +13,16 @@ Neural network which detects whether there are cows or no cows in a photo, using
 
 ## How to use
 
-Install the requirements in a virtual environment
+I recommend using two different virtual environments: one for training and one for inference.
 ```
 python install -r training_requirements.txt
-python install -r inference_requirements.txt
 ```
 Download a dataset (please contact me if you wish to use my dataset) with two folders: photos of cows and photos without cows. Use a variety of photos including different angles of the cow(s), and different locations within both catagories.  
 Split the data into a training and testing set, using splitdata.py.  
 Train the model using cows.py. This script will arrange the data into something it can use, create a neural network, train all of the images in the training set 15 times over, and save the model.  
+```
+python install -r inference_requirements.txt
+```
 Test the model using inference.py. This script will load data from the holdout set and feed it into the model. The output will be two numbers, showing the certainty that the "cow" images contain cows, and the "no cow" images do not contain cows.  
 Test the model in the field using a camera by running photos.py. This will take photos (number of photos currently set to 2) then put them through the model. The output of the script is a csv file called results.csv which contains the timestamp of each photo and whether cows have been detected in the photo or not.
 
