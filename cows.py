@@ -9,6 +9,7 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 from keras.layers import Dropout
 
+# split data into training and testing set
 
 if True:
     def split_data(SOURCE, TRAINING, TESTING, SPLIT_SIZE):
@@ -48,7 +49,9 @@ if True:
     print(COW_SOURCE_DIR)
     split_data(COW_SOURCE_DIR, TRAINING_COW_DIR, TESTING_COW_DIR, split_size)
     split_data(NOCOW_SOURCE_DIR, TRAINING_NOCOW_DIR, TESTING_NOCOW_DIR, split_size)
-     
+
+# construct CNN
+
 model = tf.keras.models.Sequential([
         tf.keras.layers.Conv2D(32, (3,3), input_shape=(150, 150, 3), activation='relu'),
         tf.keras.layers.MaxPooling2D(2,2),
