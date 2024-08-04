@@ -9,7 +9,9 @@ Neural network which detects whether there are cows or no cows in a photo, using
 * Data
 * Model
 * Inference test
-* Application 
+* Application
+
+![system_diagram.excalidraw](./system_diagram.excalidraw)
 
 ## How to use
 
