@@ -9,6 +9,14 @@ Neural network which detects whether there are cows or no cows in a photo, using
 * Model
 * Inference test
 * Application
+### Data
+Sources of data:
+* scraping from Bing image search
+* a Kaggle dataset of cows
+* videos I took of cows and no cows, then extracting images from here. This was to get a large number of my own photos quickly without taking each one individually
+* photos I took of cows and no cows for the holdout set. Less overall than from videos but they are more varied
+### Model
+I used another project on GitHub that recognises whether there is a cat or a dog in the photo (https://github.com/0sparsh2/cats-vs-dogs-coursera-assignment/blob/main/Cats_vs_Dogs_CourseraAssignment.ipynb). Instead of training the model with the "cats vs dogs" dataset I used my own "cows vs no cows" dataset.
 ### Application  
 The different parts of the application part are shown in the diagram below:
 ![system_diagram.png](./system_diagram.png)
@@ -35,19 +43,7 @@ This is how the project will work on the field.
 ```
 pip install -r pi_requirements.txt
 ```
-Run rpi-demo.py on the Raspberry Pi. This will test one image (cow.jpg) using the TensorFlow Lite model.  
-**Coming soon:** a script on the Pi that will take photos continuously, like photos_tflite.py. 
-
-
-## Context
-
-For a school project (EPQ) of my choice I chose to make a machine learning algorithm. This is still a work in progress. I decided to make a neural network to detect the presence of cows in fields, to see if this has an effect on the water in rivers nearby. I used another project on GitHub that recognises whether there is a cat or a dog in the photo (https://github.com/0sparsh2/cats-vs-dogs-coursera-assignment/blob/main/Cats_vs_Dogs_CourseraAssignment.ipynb). Instead of training the model with the "cats vs dogs" dataset I used my own "cows vs no cows" dataset. I then took photos of cows myself to use as a holdout set, which the model recognises to an accuracy of up to 80%.  
-
-My sources of data are:
-* scraping from Bing image search
-* a Kaggle dataset of cows
-* videos I took of cows and no cows, then extracting images from here. This was to get a large number of my own photos quickly without taking each one individually
-* photos I took of cows and no cows for the holdout set. Less overall than from videos but they are more varied
+Run rpi-demo.py on the Raspberry Pi. This will test one image (cow.jpg) using the TensorFlow Lite model.
 
 ## Coming soon
 
