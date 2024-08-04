@@ -11,13 +11,15 @@ Neural network which detects whether there are cows or no cows in a photo, using
 * Application
 ### Data
 Sources of data:
-* scraping from Bing image search
+* scraping from Bing image search  
   ![cowriverexaple.gif](./cowriverexaple.gif)
   ![duckexample.gif](./duckexample.gif)
   ![fieldexample.gif](./fieldexample.gif)
   ![personriverexample.gif](./personriverexample.gif)
   ![treefieldexample.gif](./treefieldexample.gif)  
-* a Kaggle dataset of cows
+  As well as searching for cows in fields and empty fields, I made sure that the model wouldn't recognise empty space as lack of cows, by including photos of ducks, trees and people. I also included photos of cows around rivers so that the model wouldn't assume that a cow is only present if it is in a field.  
+* a Kaggle dataset of cows  
+  ![kagglecowexample.gif](./kagglecowexample.gif)  
 * videos I took of cows and no cows, then extracting images from here. This was to get a large number of my own photos quickly without taking each one individually  
   ![videocowexample.gif](./videocowexample.gif)  
   I changed the orientation to train the model with upside down cows too  
