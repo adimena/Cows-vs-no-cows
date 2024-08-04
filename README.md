@@ -26,7 +26,7 @@ This is to give an idea of how accurate your model is.
 pip install -r inference_requirements.txt
 ```
 Test the model using inference.py. This script will load data from the holdout set and feed it into the model. The output will be two numbers, showing the certainty that the "cow" images contain cows, and the "no cow" images do not contain cows.  
-Test the model in the field using a camera by running photos.py. This will take photos (number of photos currently set to 100) then put them through the model. The output of the script is a csv file called results.csv which contains the timestamp of each photo and whether cows have been detected in the photo or not.
+Test the model in the field using a camera by running photos.py. This will take photos (number of photos currently set to 100) then put them through the model. The output of the script is a csv file called results.csv which contains the timestamp of each photo and whether cows have been detected in the photo or not.  
 **TensorFow Lite**  
 Use converter.py to convert the model to TensorFlow Lite. To do the inference, run inference_tflite.py. To test the model taking photos in real time, use photos_tflite.py.
 ### Testing inference on Raspberry Pi
@@ -34,7 +34,7 @@ This is how the project will work on the field.
 ```
 pip install -r pi_requirements.txt
 ```
-Run rpi-demo.py on the Raspberry Pi. This will test one image (cow.jpg) using the TensorFlow Lite model.
+Run rpi-demo.py on the Raspberry Pi. This will test one image (cow.jpg) using the TensorFlow Lite model.  
 **Coming soon:** a script on the Pi that will take photos continuously, like photos_tflite.py. 
 
 
@@ -50,6 +50,6 @@ My sources of data are:
 
 ## Coming soon
 
-Better performance using dropout layers  
-Graphs showing the performance of the model  
-Script that takes photos and detects cows on the Pi
+* Better performance using dropout layers  
+* Graphs showing the performance of the model  
+* Script that takes photos and detects cows on the Pi
