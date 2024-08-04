@@ -15,8 +15,10 @@ Sources of data:
 * a Kaggle dataset of cows
 * videos I took of cows and no cows, then extracting images from here. This was to get a large number of my own photos quickly without taking each one individually
 * photos I took of cows and no cows for the holdout set. Less overall than from videos but they are more varied
-  ![outfile.gif](./outfile.gif)
+  ![outfile.gif](./outfile.gif)  
   an example of a photo of a cow that I took individually
+  ![personexample.gif](./personexample.gif)
+  I took photos of empty fields and also people to prevent it from confusing people with cows
 ### Model
 I used another project on GitHub that recognises whether there is a cat or a dog in the photo (https://github.com/0sparsh2/cats-vs-dogs-coursera-assignment/blob/main/Cats_vs_Dogs_CourseraAssignment.ipynb). Instead of training the model with the "cats vs dogs" dataset I used my own "cows vs no cows" dataset.
 ### Application  
