@@ -19,15 +19,16 @@ Sources of data:
   ![treefieldexample.gif](./treefieldexample.gif)  
   As well as searching for cows in fields and empty fields, I made sure that the model wouldn't recognise empty space as lack of cows, by including photos of ducks, trees and people. I also included photos of cows around rivers so that the model wouldn't assume that a cow is only present if it is in a field.  
 * a Kaggle dataset of cows  
-  ![kagglecowexample.gif](./kagglecowexample.gif)  
+  ![kagglecowexample.gif](./kagglecowexample.gif)
+  This dataset has photos of cows in many different orientations.
 * videos I took of cows and no cows, then extracting images from here. This was to get a large number of my own photos quickly without taking each one individually  
   ![videocowexample.gif](./videocowexample.gif)  
-  I changed the orientation to train the model with upside down cows too  
+  I changed the orientation here too.  
 * photos I took of cows and no cows for the holdout set. Less overall than from videos but they are more varied
   ![outfile.gif](./outfile.gif)  
-  An example of a photo of a cow that I took individually  
+  An example of a photo of a cow that I took individually.  
   ![personexample.gif](./personexample.gif)  
-  I took photos of empty fields and also people to prevent it from confusing people with cows
+  For the "no cows" data, I took photos of empty fields and also people to prevent it from confusing people with cows.
 ### Model
 I used another project on GitHub that recognises whether there is a cat or a dog in the photo (https://github.com/0sparsh2/cats-vs-dogs-coursera-assignment/blob/main/Cats_vs_Dogs_CourseraAssignment.ipynb). Instead of training the model with the "cats vs dogs" dataset I used my own "cows vs no cows" dataset.
 ### Application  
