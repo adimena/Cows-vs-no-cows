@@ -14,7 +14,8 @@ Sources of data:
 * scraping from Bing image search
 * a Kaggle dataset of cows
 * videos I took of cows and no cows, then extracting images from here. This was to get a large number of my own photos quickly without taking each one individually  
-  ![videocowexample.gif](./videocowexample.gif)  
+  ![videocowexample.gif](./videocowexample.gif)
+  I changed the orientation to train the model with upside down cows too  
 * photos I took of cows and no cows for the holdout set. Less overall than from videos but they are more varied
   ![outfile.gif](./outfile.gif)  
   an example of a photo of a cow that I took individually  
