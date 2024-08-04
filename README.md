@@ -16,7 +16,7 @@ Sources of data:
 * videos I took of cows and no cows, then extracting images from here. This was to get a large number of my own photos quickly without taking each one individually
 * photos I took of cows and no cows for the holdout set. Less overall than from videos but they are more varied
   ![outfile.gif](./outfile.gif)  
-  an example of a photo of a cow that I took individually
+  an example of a photo of a cow that I took individually  
   ![personexample.gif](./personexample.gif)
   I took photos of empty fields and also people to prevent it from confusing people with cows
 ### Model
