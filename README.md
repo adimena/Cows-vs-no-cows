@@ -25,7 +25,7 @@ Sources of data:
   ![videocowexample.gif](./videocowexample.gif)  
   I changed the orientation here too.  
 * photos I took of cows and no cows for the holdout set. Less overall than from videos but they are more varied
-  ![outfile.gif](./outfile.gif)  
+  ![cowphotoexample.gif](./cowphotoexample.gif)  
   An example of a photo of a cow that I took individually.  
   ![personexample.gif](./personexample.gif)  
   For the "no cows" data, I took photos of empty fields and also people to prevent it from confusing people with cows.
