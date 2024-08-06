@@ -41,8 +41,8 @@ The different parts of the application part are shown in the diagram below:
 pip install -r training_requirements.txt
 ```
 Download a dataset (please contact me if you wish to use my dataset) with two folders: photos of cows and photos without cows. Use a variety of photos including different angles of the cow(s), and different locations within both catagories.  
-Split the data into a training and testing set, using splitdata.py.  
-Train the model using cows.py. This script will arrange the data into something it can use, create a neural network, train all of the images in the training set 15 times over, and save the model.  
+Split the data into a training and testing set, using split_data.py.  
+Train the model using train_model.py. This script will arrange the data into something it can use, create a neural network, train all of the images in the training set 15 times over, and save the model.  
 ### Testing inference on computer
 This is to give an idea of how accurate your model is.
 ```
@@ -50,8 +50,10 @@ pip install -r inference_requirements.txt
 ```
 Test the model using inference.py. This script will load data from the holdout set and feed it into the model. The output will be two numbers, showing the certainty that the "cow" images contain cows, and the "no cow" images do not contain cows.  
 Test the model in the field using a camera by running photos.py. This will take photos (number of photos currently set to 100) then put them through the model. The output of the script is a csv file called results.csv which contains the timestamp of each photo and whether cows have been detected in the photo or not.  
+
 **TensorFow Lite**  
-Use converter.py to convert the model to TensorFlow Lite. To do the inference, run inference_tflite.py. To test the model taking photos in real time, use photos_tflite.py.
+
+Use convert_to_tflite.py to convert the model to TensorFlow Lite. To do the inference, run inference_tflite.py. To test the model taking photos in real time, use photos_tflite.py.
 ### Testing inference on Raspberry Pi
 This is how the project will work on the field.
 ```
