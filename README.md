@@ -30,7 +30,7 @@ Sources of data:
   ![personexample.gif](./personexample.gif)  
   For the "no cows" data, I took photos of empty fields and also people to prevent it from confusing people with cows.
 ### Model
-I used another project on GitHub that recognises whether there is a cat or a dog in the photo (https://github.com/0sparsh2/cats-vs-dogs-coursera-assignment/blob/main/Cats_vs_Dogs_CourseraAssignment.ipynb). Instead of training the model with the "cats vs dogs" dataset I used my own "cows vs no cows" dataset.
+I used [another project](https://github.com/0sparsh2/cats-vs-dogs-coursera-assignment/blob/main/Cats_vs_Dogs_CourseraAssignment.ipynb) on GitHub that recognises whether there is a cat or a dog in the photo. Instead of training the model with the "cats vs dogs" dataset I used my own "cows vs no cows" dataset.
 ### Application  
 The different parts of the application part are shown in the diagram below:
 ![system_diagram.png](./system_diagram.png)
