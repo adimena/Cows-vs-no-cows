@@ -18,7 +18,7 @@ Sources of data:
   ![personriverexample.gif](./personriverexample.gif)
   ![treefieldexample.gif](./treefieldexample.gif)  
   As well as searching for cows in fields and empty fields, I made sure that the model wouldn't recognise empty space as lack of cows, by including photos of ducks, trees and people. I also included photos of cows around rivers so that the model wouldn't assume that a cow is only present if it is in a field.  
-* [a Kaggle dataset of cows](https://www.kaggle.com/datasets/sadhliroomyprime/cattle-weight-detection-model-dataset-12k)  
+* a [Kaggle dataset of cows](https://www.kaggle.com/datasets/sadhliroomyprime/cattle-weight-detection-model-dataset-12k)  
   ![kagglecowexample.gif](./kagglecowexample.gif)  
   This dataset has photos of cows at many different angles.
 * videos I took of cows and no cows, then extracting images from here. This was to get a large number of my own photos quickly without taking each one individually  
